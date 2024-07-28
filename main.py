@@ -1,7 +1,7 @@
 from generate import *
-from photoDownloadFile import *
-from posttoLinks import *
-from videoDownloadFile import *
+from photo_download import *
+from video_extract import *
+from video_download import *
 
 def create_random_folder(base_path):
     """Create a random folder with a timestamp in the specified base path."""
